@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 100px 0px 100px 0px;
+    font-family: 'Passion One', cursive;
+}
+
+h1{
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 8vw;
+}
+
+
+p#header{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+a.autor{
+    color: white;
+    text-decoration: none;
+}
+
+a.autor:hover{
+    color: rgb(221, 179, 102);
+    text-decoration: underline;
+}
+
+main{
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+}
+
+div.normal{
+    line-height: 2em;
+    padding:10vh 0px 10vh 30px ;
+}
+
+div.verso2{
+    line-height: 2em;
+    padding:10vh 0px 10vh 0px ;
+    background: black url(imagens/background001.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: bottom right;
+    color: white;
+    box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.397);
+    
+}
+
+div.verso5{
+    background: rgb(0, 0, 0) url(imagens/background002.jpg) no-repeat fixed;
+    background-size: cover;
+    line-height: 2em;
+    padding:10vh 0px 10vh 0px ;
+     box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.397);
+    
+}
+
+div.caixapequena{
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.116);
+    padding: 25px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+}
+
+footer > p{
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    width: fit-content;
+}
+
+a.linkjulinho{
+        
+        color: rgb(97, 175, 226);
+        text-decoration: none;
+}
+
+a.linkjulinho:hover{
+    text-decoration: underline;
+    color: rgb(238, 169, 41);
+}
